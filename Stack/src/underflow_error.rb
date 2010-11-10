@@ -1,2 +1,0 @@
-class UnderflowError < Exception
-end

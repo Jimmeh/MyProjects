@@ -1,2 +1,0 @@
-class OverflowError < Exception
-end

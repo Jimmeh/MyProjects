@@ -1,4 +1,0 @@
-1288993430
-StringCalculator	/home/jimmeh/MyProjects/StringCalculator/src/string_calculator.rb	class StringCalculator
-add	/home/jimmeh/MyProjects/StringCalculator/src/string_calculator.rb	  def add
-result_from	/home/jimmeh/MyProjects/StringCalculator/rspec/string_calculator_specs.rb	  def result_from
