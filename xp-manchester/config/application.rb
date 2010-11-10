@@ -8,7 +8,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module XpManchester
   class Application < Rails::Application
-    config.generators do
+    config.generators do |g|
       g.test_framework :rspec
     end
     
