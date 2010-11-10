@@ -1,0 +1,7 @@
+1289337146
+Checkout	/home/jimmeh/MyProjects/BackToTheCheckout/src/checkout.rb	class Checkout
+CheckoutHelper	/home/jimmeh/MyProjects/BackToTheCheckout/rspec/checkout/checkout_helper.rb	module CheckoutHelper
+initialize	/home/jimmeh/MyProjects/BackToTheCheckout/src/checkout.rb	  def initialize
+scan	/home/jimmeh/MyProjects/BackToTheCheckout/src/checkout.rb	  def scan
+total	/home/jimmeh/MyProjects/BackToTheCheckout/src/checkout.rb	  def total
+total_after_scanning	/home/jimmeh/MyProjects/BackToTheCheckout/rspec/checkout/checkout_helper.rb	  def total_after_scanning

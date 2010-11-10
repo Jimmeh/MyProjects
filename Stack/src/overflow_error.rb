@@ -1,0 +1,2 @@
+class OverflowError < Exception
+end
