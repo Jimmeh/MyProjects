@@ -1,0 +1,215 @@
+Script started on Sat 13 Nov 2010 15:59:46 GMT
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ exitredcar .[3Pcd ..[3Plscd spec[2Pleard ..leard specls[Kcd ..redcar .[4Pexit[Kexit[Kexitredcar .[3Pcd ..redcar .[4Pexit[Kscript [K[K[K[K[K[K[Kend
+No command 'end' found, did you mean:
+ Command 'xend' from package 'xen-utils-3.3' (universe)
+ Command 'bnd' from package 'bnd' (universe)
+ Command 'ed' from package 'ed' (main)
+ Command 'esd' from package 'pulseaudio-esound-compat' (main)
+ Command 'esd' from package 'esound' (universe)
+ Command 'send' from package 'nmh' (universe)
+ Command 'send' from package 'mailutils-mh' (universe)
+ Command 'eid' from package 'id-utils' (universe)
+ Command 'and' from package 'and' (universe)
+ Command 'nd' from package 'nd' (universe)
+ Command 'ent' from package 'ent' (universe)
+ Command 'env' from package 'coreutils' (main)
+ Command 'snd' from package 'snd-gtk-jack' (universe)
+ Command 'snd' from package 'snd-gtk-pulse' (universe)
+ Command 'snd' from package 'snd-nox-alsa' (universe)
+end: command not found
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ script/rais[Kls generate controlle r home index
+[1m[32m      create[0m  app/controllers/home_controller.rb
+[1m[32m       route[0m  get "home/index"
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/home
+[1m[32m      create[0m    app/views/home/index.html.erb
+[1m[37m      invoke[0m  rspec
+[1m[32m      create[0m    spec/controllers/home_controller_spec.rb
+[1m[32m      create[0m    spec/views/home
+[1m[32m      create[0m    spec/views/home/index.html.erb_spec.rb
+[1m[37m      invoke[0m  helper
+[1m[32m      create[0m    app/helpers/home_helper.rb
+[1m[37m      invoke[0m    rspec
+[1m[32m      create[0m      spec/helpers/home_helper_spec.rb
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ git commit 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .redcar/tags
+#	modified:   config/application.rb
+#	modified:   config/routes.rb
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	app/controllers/home_controller.rb
+#	app/helpers/home_helper.rb
+#	app/views/home/
+#	rails
+#	spec/controllers/
+#	spec/helpers/
+#	spec/views/
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ git commit -m [K[K[K[K[K[K[K[K[K[Kadd .
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ git commit 0[K-0m[K[Km "added home contr oller"[K and index view"
+[master 01b8219] added home controller and index view
+ 9 files changed, 48 insertions(+), 1 deletions(-)
+ create mode 100644 xp-manchester/app/controllers/home_controller.rb
+ create mode 100644 xp-manchester/app/helpers/home_helper.rb
+ create mode 100644 xp-manchester/app/views/home/index.html.erb
+ create mode 100644 xp-manchester/rails
+ create mode 100644 xp-manchester/spec/controllers/home_controller_spec.rb
+ create mode 100644 xp-manchester/spec/helpers/home_helper_spec.rb
+ create mode 100644 xp-manchester/spec/views/home/index.html.erb_spec.rb
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ git push org[Ko[Kigin master
+Counting objects: 36, done.
+Delta compression using up to 2 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  33% (8/24)   Writing objects:  37% (9/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  58% (14/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects: 100% (24/24)   Writing objects: 100% (24/24), 2.15 KiB, done.
+Total 24 (delta 5), reused 0 (delta 0)
+To git@github.com:Jimmeh/MyProjects.git
+   7348f39..01b8219  master -> master
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ git push heroku master
+fatal: 'heroku' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ heroku
+/usr/local/lib/site_ruby/1.8/rubygems.rb:779:in `report_activate_error': Could not find RubyGem heroku (>= 0) (Gem::LoadError)
+	from /usr/local/lib/site_ruby/1.8/rubygems.rb:214:in `activate'
+	from /usr/local/lib/site_ruby/1.8/rubygems.rb:1082:in `gem'
+	from /usr/bin/heroku:18
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ heroku create [K .
+/usr/local/lib/site_ruby/1.8/rubygems.rb:779:in `report_activate_error': Could not find RubyGem heroku (>= 0) (Gem::LoadError)
+	from /usr/local/lib/site_ruby/1.8/rubygems.rb:214:in `activate'
+	from /usr/local/lib/site_ruby/1.8/rubygems.rb:1082:in `gem'
+	from /usr/bin/heroku:18
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ rake spec
+(in /home/jimmeh/MyProjects/xp-manchester)
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ bunde [K[Kle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.1) 
+Using builder (2.1.2) 
+Using i18n (0.4.2) 
+Using activemodel (3.0.1) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.1) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.9) 
+Using actionmailer (3.0.1) 
+Using arel (1.0.1) 
+Using activerecord (3.0.1) 
+Using activeresource (3.0.1) 
+Using bundler (1.0.4) 
+Installing celerity (0.8.4) 
+Installing culerity (0.2.12) 
+Installing nokogiri (1.4.3.1) with native extensions /home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:483:in `rescue in block in build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb 
+checking for libxml/parser.h... yes
+checking for libxslt/xslt.h... no
+-----
+libxslt is missing.  please visit http://nokogiri.org/tutorials/installing_nokogiri.html for help with installing dependencies.
+-----
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--with-iconv-dir
+	--without-iconv-dir
+	--with-iconv-include
+	--without-iconv-include=${iconv-dir}/include
+	--with-iconv-lib
+	--without-iconv-lib=${iconv-dir}/lib
+	--with-xml2-dir
+	--without-xml2-dir
+	--with-xml2-include
+	--without-xml2-include=${xml2-dir}/include
+	--with-xml2-lib
+	--without-xml2-lib=${xml2-dir}/lib
+	--with-xslt-dir
+	--without-xslt-dir
+	--with-xslt-include
+	--without-xslt-include=${xslt-dir}/include
+	--with-xslt-lib
+	--without-xslt-lib=${xslt-dir}/lib
+
+
+Gem files will remain installed in /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/nokogiri-1.4.3.1 for inspection.
+Results logged to /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/nokogiri-1.4.3.1/ext/nokogiri/gem_make.out
+	from /home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:486:in `block in build_extensions'
+	from /home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `each'
+	from /home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `build_extensions'
+	from /home/jimmeh/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:198:in `install'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/source.rb:95:in `install'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/installer.rb:55:in `block in run'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/spec_set.rb:12:in `block in each'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/spec_set.rb:12:in `each'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/spec_set.rb:12:in `each'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/installer.rb:44:in `run'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/installer.rb:8:in `install'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/cli.rb:225:in `install'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/gems/bundler-1.0.4/bin/bundle:13:in `<top (required)>'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/bin/bundle:19:in `load'
+	from /home/jimmeh/.rvm/gems/ruby-1.9.2-p0/bin/bundle:19:in `<main>'
+]0;jimmeh@jimmeh-laptop: ~/MyProjects/xp-manchesterjimmeh@jimmeh-laptop:~/MyProjects/xp-manchester$ bundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.1) 
+Using builder (2.1.2) 
+Using i18n (0.4.2) 
+Using activemodel (3.0.1) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.1) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.9) 
+Using actionmailer (3.0.1) 
+Using arel (1.0.1) 
+Using activerecord (3.0.1) 
+Using activeresource (3.0.1) 
+Using bundler (1.0.4) 
+Using celerity (0.8.4) 
+Using culerity (0.2.12) 
+Installing nokogiri (1.4.3.1) with native extensions 
+Installing ffi (0.6.3) with native extensions 
+Installing childprocess (0.1.4) 
+Installing json_pure (1.4.6) 
+Installing rubyzip (0.9.4) 
